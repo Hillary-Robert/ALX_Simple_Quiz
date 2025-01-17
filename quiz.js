@@ -17,10 +17,10 @@ function checkAnswer() {
 
     let userAnswer = selectedOption.value;
 
-    if(userAnswer === correctAnswer){
+    if (userAnswer === correctAnswer){
       feedback.textContent = "Correct! Well done."
       feedback.style.color = "green"
-    }else{
+    }else {
       feedback.textContent = "That's incorrect. Try again!"
       feedback.style.color = "red"
     }
